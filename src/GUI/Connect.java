@@ -19,6 +19,7 @@ public class Connect {
    
         public static Connection ConnectDB(){
             
+            //JDBC Connection : M Zahid Mehraj
           String dbURL = "jdbc:ucanaccess://D:/Spring 2017-II/JAVA/Projects/Semester Project-SRMS-00/Student.accdb";
         try{
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
